@@ -3,7 +3,7 @@ window.onload = () => {
     let method = 'dynamic';
 
     // if you want to statically add places, de-comment following line:
-    // method = 'static';
+    method = 'static';
     if (method === 'static') {
         let places = staticLoadPlaces();
         return renderPlaces(places);
@@ -34,8 +34,10 @@ function staticLoadPlaces() {
         {
             name: "Your place name",
             location: {
-                lat: 44.493271, // change here latitude if using static data
-                lng: 11.326040, // change here longitude if using static data
+                lat: 36.53972222, // change here latitude if using static data
+                lng: 5.38833333, // change here longitude if using static data
+//36°32'23.0"N
+// 5°23'18.7"W
             }
         },
     ];
