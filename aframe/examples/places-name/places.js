@@ -31,8 +31,6 @@ window.onload = () => {
 
 function staticLoadPlaces() {
     return [
-function staticLoadPlaces() {
-    return [
         {
         name: '4VIRI001,
         location: {
@@ -3659,9 +3657,6 @@ function staticLoadPlaces() {
           lng:-5.3860114491315, // change here longitude if using static data
           }
         },
-           ]
-}
-        
     ];
 }
 
